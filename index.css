@@ -1,0 +1,174 @@
+
+body, html{
+    height: 100vh;
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);/* Very light gray (background, headings, buttons)*/
+    
+}
+* {
+    box-sizing: border-box;
+  } 
+.sedancard {
+position: relative;
+left: 300px;
+top: 126px;
+height: 60vh;
+padding-left: 81px;
+padding-right: 25px;
+width: 300px;
+background:hsl(31, 77%, 52%);
+color: aliceblue;
+border-top-left-radius: 5px ;
+border-bottom-left-radius: 5px ;
+font-family: 'Roboto', sans-serif;
+}
+.suvcard {
+position: relative;
+left : 600px;
+bottom: 289px;
+height:60vh;
+padding-left: 88px;
+padding-right: 25px;
+width: 300px;
+background: hsl(184, 100%, 22%);
+color: aliceblue;
+
+font-family: 'Roboto', sans-serif;
+}
+.luxurycard{
+position: relative;
+left: 900px;
+height:60vh;
+bottom: 703px;
+padding-left: 81px;
+padding-right: 25px;
+width: 300px;
+background: hsl(179, 100%, 13%);
+color: aliceblue;
+border-top-right-radius: 5px ;
+border-bottom-right-radius: 5px;
+font-family: 'Roboto', sans-serif;
+}
+svg{
+    position: relative;
+    top: 30px;
+}
+.attribution{
+    position: relative;
+    bottom: 90vh;
+    font-weight: bold;
+    font-family: 'Antonio', sans-serif;
+    
+}
+
+span{
+text-transform: uppercase;
+font-size: x-large;
+font-family: 'Antonio', sans-serif;
+color: hsl(0, 0%, 95%);
+
+}
+button {
+    position: relative;
+    top: -120px;
+    font-size: large;
+    background-color: hsl(0, 0%, 95%);
+    border-radius:  20px;
+    border-width: 0px;  
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+      
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+.sedancard button{
+    text-transform: capitalize;
+    border-color: hsl(31, 77%, 52%) ;
+   color:hsl(31, 77%, 52%) ;
+}
+.suvcard button{
+    text-transform: capitalize;
+    border-color: hsl(184, 100%, 22%);
+   color:hsl(184, 100%, 22%) ;
+}
+.luxurycard button{
+    text-transform: capitalize;
+    border-color: hsl(179, 100%, 13%);
+   color:hsl(179, 100%, 13%) ;
+}
+
+.sedancard button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 95%);
+}
+.suvcard button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 95%);
+}
+.luxurycard button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 95%);
+}
+@media only screen and (max-width:420px){
+    body, html{
+        height: 180vh;
+
+    }
+    .sedancard {
+        margin-top: 17vh;
+        position: relative;
+        left: 50px;
+        top: -7px;
+        height: 50vh;
+        padding-left: 41px;
+        padding-right: 30px;
+        width: 273px;
+        background:hsl(31, 77%, 52%);
+        color: aliceblue;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        }
+        .suvcard {
+        position: relative;
+        left : 50px;
+        bottom: 8px;
+        height: 50vh;
+        padding-left: 41px;
+        padding-right: 30px;
+        width: 273px;
+        background: hsl(184, 100%, 22%);
+        color: aliceblue;
+        
+        font-family: 'Roboto', sans-serif;
+        }
+        .luxurycard{
+        position: relative;
+        left: 50px;
+        height:50vh;
+        bottom: 8px;
+        padding-left: 41px;
+        padding-right: 30px;
+        width: 273px;
+        background: hsl(179, 100%, 13%);
+        color: aliceblue;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        
+        }
+    .attribution{
+        display: none;
+    }
+    }
+    
